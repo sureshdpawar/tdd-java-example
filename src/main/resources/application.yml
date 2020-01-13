@@ -1,0 +1,35 @@
+server:
+  port: 9991
+
+security:
+  jwt:
+    public-key: classpath:public.txt
+
+spring:
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+
+---
+spring:
+  profiles: local
+  name: local-YAML
+  environment: local
+
+---
+spring:
+  profiles: dev
+  name: dev-YAML
+  environment: development
+
+---
+spring:
+  profiles: ci
+  name: ci-YAML
+  environment: ci
+
+---
+spring:
+  profiles: prod
+  name: prod-YAML
+  environment: prod
