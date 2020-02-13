@@ -5,12 +5,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.ascentis.hcm.payroll</groupId>
-	<artifactId>pr-open-api-service</artifactId>
+	<artifactId>tdd-examples</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>pr-open-api-service</name>
-	<description>Payroll Open API Service</description>
+	<name>tdd-examples</name>
+	<description>TDD examples</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -65,6 +65,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 	</dependencies>
 
 	<build>

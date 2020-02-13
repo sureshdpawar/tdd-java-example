@@ -1,4 +1,3 @@
-A spring boot application for payroll open api
+A spring boot application for TDD Examples
 
-#Get the token from hcm-oauth2-server 
 
